@@ -1,0 +1,118 @@
+@font-face {
+	font-family: Spectral;
+	src: url("../font/Spectral/Spectral-Bold.ttf");
+}
+
+body {
+	font-size: 1rem;
+	padding: 40px;
+  background: #4f4f4f;
+}
+
+.title {
+  color: #ededd0;
+  font-size: 30px;
+}
+
+h2 {
+	font-family: Spectral;
+}
+
+
+.numberholder {
+  width: 400px;
+  height: 2rem;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 25px;
+  position: relative;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.numberholder::after {
+	content: "円";
+	color: #000;
+	font-size: 15px;
+	position: absolute;
+	right: 5px;
+	top: 6px;
+}
+
+.main-area {
+	display: flex;
+	align-items: center;
+}
+
+.main-area span {
+	cursor: pointer;
+	color: #fff;
+	height: 34px;
+	width: 71px;
+	background-color: #e45528d6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 16px; 
+}
+
+button {
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3f3f3f;
+  border-color: unset;
+  letter-spacing: 0.2rem;
+  font-size: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #cfcfcf;
+  color: #000;
+  transform: scale(1.2, 1.2);
+  transition: all 0.3s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
