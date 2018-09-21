@@ -3,6 +3,11 @@
 	src: url("../font/Spectral/Spectral-Bold.ttf");
 }
 
+p {
+  margin: 0;
+  padding: 0; 
+}
+
 body {
 	font-size: 1rem;
 	padding: 40px;
@@ -42,9 +47,21 @@ h2 {
 	top: 6px;
 }
 
+.numberholder::before {
+  content: attr(data-item);
+  top: -26px;
+  right: 0;
+  position: absolute;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
 .main-area {
 	display: flex;
 	align-items: center;
+  padding: 20px 0 10px;
 }
 
 .main-area span {
